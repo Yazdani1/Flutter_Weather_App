@@ -9,9 +9,10 @@ void main() async{
 
   Map data=await getData();
 
-  //print("Answer:"+data["list"][0]["main"]["temp"].toString());
+  print("Answer:"+data["list"][0]["main"]["temp"].toString());
   
-  print("City Map Answer:"+data['city']['coord']['lon'].toString());
+  //print("City Map Answer:"+data['city']['coord']['lon'].toString());
+  //print(data["list"]);
   
 //  print("Sunset Time:"+data['results']['sunset']);
 //  print("sunrise:"+data['results']['sunrise']);

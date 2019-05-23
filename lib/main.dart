@@ -8,7 +8,6 @@ import 'dart:async';
 void main() async{
 
   Map data=await getData();
-
   print("Answer:"+data["list"][0]["main"]["temp"].toString());
   
   //print("City Map Answer:"+data['city']['coord']['lon'].toString());
@@ -16,7 +15,7 @@ void main() async{
   
 //  print("Sunset Time:"+data['results']['sunset']);
 //  print("sunrise:"+data['results']['sunrise']);
-  
+
   runApp(new MaterialApp(
     home: new Scaffold(
 

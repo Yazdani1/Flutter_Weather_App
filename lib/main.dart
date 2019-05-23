@@ -16,8 +16,7 @@ void main() async{
   
 //  print("Sunset Time:"+data['results']['sunset']);
 //  print("sunrise:"+data['results']['sunrise']);
-
-
+  
   runApp(new MaterialApp(
     home: new Scaffold(
 
